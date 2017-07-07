@@ -16,10 +16,6 @@ apt-get install libc6:i386 libstdc++6:i386
 ### ia32-libs has been changed
 Here's what worked
 
+sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0
 sudo apt-get install libgl1-mesa-dri:i386
-sudo apt-get install ia32-libs-multiarch:i386
-
-sudo apt-get install ia32-libs-multiarch
-
-sudo apt-get install ia32-libs
 
