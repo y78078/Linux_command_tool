@@ -11,7 +11,7 @@ You can also, of course, edit /etc/ssh/ssh_config or ~/.ssh/ssh_config, and add:
 Host my.host.com *.myinsecure.net 192.168.1.* 192.168.2.*
     HostKeyAlgorithms ssh-dss
     KexAlgorithms diffie-hellman-group1-sha1 
-## Exmaple 
+## Exmaple ~/.ssh/config
     Host *
     KexAlgorithms +diffie-hellman-group1-sha1
     HostKeyAlgorithms ssh-dss
