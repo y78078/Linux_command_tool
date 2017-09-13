@@ -4,6 +4,7 @@ Board SBC-7112 imx6dl sabresd
 
 ## start one time by command 
 modprobe g_serial
+
 systemctl start getty@ttyGS0
 ## stop one time by command 
 systemctl stop getty@ttyGS0
