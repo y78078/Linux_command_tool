@@ -1,4 +1,4 @@
-# establish USB console
+# establish USB console or mass storage
 OS: Yocto
 Board SBC-7112 imx6dl sabresd
 
@@ -38,4 +38,6 @@ cp getty@ttyGS0.service.backup getty@ttyGS0.service
 
 ln -s /lib/systemd/system/getty@.service
 
+## mass storage
+modprobe g_mass_storage
 
