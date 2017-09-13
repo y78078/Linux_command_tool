@@ -14,12 +14,15 @@ systemctl enable getty@ttyGS0
 systemctl disable getty@ttyGS0
 
 getty wiki: https://wiki.archlinux.org/index.php/Getty
+
 It will show how to set autologin
 
 ## enable every time by filesystem
 ### modprobe part
 vi /etc/modules-load.d/g_serial.conf
+
 +++ g_serial
+
 esc --> :wq
 
 ### getty part
