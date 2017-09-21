@@ -24,6 +24,9 @@ vi /etc/modules-load.d/g_serial.conf
 +++ g_serial
 
 esc --> :wq
+### modprobe parameter setting
+vi /etc/modprobe.d/quectel.conf
++++ option usbserial(this is module name) vendor=0x2c7c(vid) product=0x0125(pid)
 
 ### getty part
 systemctl enable getty@ttyGS0
