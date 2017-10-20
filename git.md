@@ -17,4 +17,5 @@ git config --global url."https://".insteadOf git://
 
 ## git pull by changeID
 git ls-remote | grep 1220
+
 git pull origin refs/changes/20/1220/2
