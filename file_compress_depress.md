@@ -19,3 +19,6 @@ rpm2cpio your_package.i586.rpm | cpio -div
 
 ## dpkg
 ### dpkg -x your_package.i586.deb new_dir
+
+## solve file future time
+### find . -exec touch {} \;
