@@ -23,6 +23,7 @@ int  main()
 ### /etc/rsyslog.conf
 local0.*  /var/log/mylog
 ### /etc/rsyslog.d/10-custom.conf
+
 ModLoad imfile
 $InputFilePollInterval 1
 $InputFileName /home/ubuntu/test.log
