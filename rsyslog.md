@@ -41,3 +41,4 @@ $InputRunFileMonitor
 ### reference
 https://t.codebug.vip/questions-907872.htm
 https://stackoverflow.com/questions/10952515/c-c-syslog-to-custom-file-not-var-log-syslog-but-var-log-mylog-ubuntu-12
+https://github.com/rsyslog/rsyslog/blob/master/runtime/rsyslog.h
