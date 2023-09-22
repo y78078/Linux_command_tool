@@ -30,7 +30,7 @@ sudo umount mmcblk0p2
 
 sleep 0.5
 
-sudo mount -o loop,offset=$((16384*512)) imx-image-full-imx8qxpmmek.rootfs.wic mmcblk0p1/
+sudo mount -o loop,offset=$((16384*512)),sizelimit=85M imx-image-full-imx8qxpmmek.rootfs.wic mmcblk0p1/
 
 cd mmcblk0p1
 
